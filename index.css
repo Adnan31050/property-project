@@ -5,7 +5,7 @@
     /* border: 1px solid white; */
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -1448,23 +1448,45 @@ table td a:hover {
     color: #a5a7af;
 }
 
-.custom-img-postion{
+.custom-img-postion {
     position: relative;
     animation: junaid 1s 1 ease-in-out;
 }
 
-@keyframes junaid{
-    0%{ left: 0; top: 0;}
-    80%{ left: 20px; top: 0;}
-    100%{ top: 0; left: 0;}
+@keyframes junaid {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    80% {
+        left: 20px;
+        top: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
 }
 
-.custom-main-relatve{
+.custom-main-relatve {
     animation: mymove 1s 1;
 }
 
-@keyframes mymove{
-    0%{ left: 0; top: 0;}
-    80%{ left: -20px; top: 0;}
-    100%{ top: 0; left: 0;}
+@keyframes mymove {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    80% {
+        left: -20px;
+        top: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
 }
