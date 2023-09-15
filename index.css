@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -272,7 +275,7 @@ header {
 }
 
 .carousal-section {
-    width: 100%;
+    width: 90%;
 }
 
 .custom-right-line {
@@ -1443,4 +1446,25 @@ table td a:hover {
     flex: unset;
     padding: 25px 0px;
     color: #a5a7af;
+}
+
+.custom-img-postion{
+    position: relative;
+    animation: junaid 1s 1 ease-in-out;
+}
+
+@keyframes junaid{
+    0%{ left: 0; top: 0;}
+    80%{ left: 20px; top: 0;}
+    100%{ top: 0; left: 0;}
+}
+
+.custom-main-relatve{
+    animation: mymove 1s 1;
+}
+
+@keyframes mymove{
+    0%{ left: 0; top: 0;}
+    80%{ left: -20px; top: 0;}
+    100%{ top: 0; left: 0;}
 }
